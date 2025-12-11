@@ -13,9 +13,7 @@
     "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "build": "vuepress build docs --clean-cache --clean-temp",
     "preview": "http-server docs/.vuepress/dist",
-    "vp-update": "npx vp-update",
-    "publish": "rsync -avz -e \"ssh -p 22\" /home/novice/data/novishare.site/docs/.vuepress/dist/ ubuntu@novishare.site:/home/ubuntu/data/nginx-proxy-manager/data/blog",
-    "deploy": "npm run build && npm run publish"
+    "vp-update": "npx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
