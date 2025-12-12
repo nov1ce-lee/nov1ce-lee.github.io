@@ -37,7 +37,7 @@ import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 const game = defineNoteConfig({
   dir: 'game',
   link: '/notes/games',
-  sidebar: 'auto',
+  sidebar: 'auto'
 })
 
 const computer = defineNoteConfig({
