@@ -18,12 +18,12 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/novishare.png',
+  logo: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/d7cfd604-0072-4fb4-8be5-8e713fa39ae6.png',
 
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: 'https://github.com/LiVanAk' },
+    { icon: 'github', link: 'https://github.com/nov1ce-lee' },
   ],
   navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   aside: true, // 页内侧边栏， 默认显示在右侧
@@ -41,7 +41,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    copyright: ' © 2023-2025 novishare.site | novice :) ',
+    copyright: ' © 2023-2025 novice.log | novice :) ',
     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
   },
 
@@ -49,9 +49,9 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/novishare.png',
-    name: 'Novishare.Site',
-    description: '知足常乐 助人为乐 自得其乐',
+    avatar: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/ChatGPT%20Image%202025%E5%B9%B412%E6%9C%8813%E6%97%A5%2014_13_00.png',
+    name: 'novice.log',
+    description: '',
     circle: true,
     location: 'Shanghai',
     // organization: '',

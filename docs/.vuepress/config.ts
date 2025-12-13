@@ -16,12 +16,12 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'Novishare.Site',
-  description: 'A website to share by Novice.',
+  title: 'novice.log',
+  description: 'Log by Nov1ce',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/novishare.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/d7cfd604-0072-4fb4-8be5-8e713fa39ae6.png' }],
     // 配置数据统计功能
     ['script', {}, `
         var _hmt = _hmt || [];
@@ -40,7 +40,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://novishare.site',
+    hostname: 'https://nov1ce-lee.github.io/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
