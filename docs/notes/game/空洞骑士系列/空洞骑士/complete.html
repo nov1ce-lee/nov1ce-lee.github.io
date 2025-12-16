@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>空洞骑士完成度统计</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6f6f6;
+            margin: 20px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 16px;
+            margin: 12px 0 6px;
+        }
+        .section {
+            background: #fff;
+            padding: 12px 16px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+        }
+        label {
+            display: block;
+            margin: 4px 0;
+            cursor: pointer;
+        }
+        .progress-box {
+            background: #fff;
+            padding: 14px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>空洞骑士完成度统计</h1>
+
+<div class="progress-box">
+    当前完成度：
+    <span id="current">0</span> / 112 %
+    （<span id="percent">0</span>%）
+</div>
+
+<div id="content"></div>
+
+<script>
+const sections = [
+    {
+        name: "Boss（每个1%）",
+        unit: 1,
+        items: [
+            "假骑士",
+            "格鲁兹之母",
+            "躁郁的毛里克",
+            "收藏家",
+            "螳螂领主",
+            "叛徒领主",
+            "灵魂大师",
+            "乌姆",
+            "残破容器",
+            "诺斯克",
+            "守望者骑士",
+            "粪虫防御者",
+            "大黄蜂（初见）",
+            "大黄蜂（再战）"
+        ]
+    },
+    {
+        name: "守梦者（每个1%）",
+        unit: 1,
+        items: [
+            "守望者·卢瑞恩",
+            "教师·莫诺蒙",
+            "野兽·赫拉"
+        ]
+    },
+    {
+        name: "梦之钉（每个1%）",
+        unit: 1,
+        items: [
+            "获得梦之钉",
+            "觉醒梦之钉",
+            "先知升天"
+        ]
+    },
+    {
+        name: "装备（每个2%）",
+        unit: 2,
+        items: [
+            "蛾翼披风（冲刺）",
+            "螳螂爪（攀墙跳）",
+            "帝王之翼（二段跳）",
+            "水晶之心（超冲）",
+            "暗影披风（黑冲）",
+            "伊思玛的眼泪（酸泳）",
+            "王之印记"
+        ]
+    },
+    {
+        name: "愚人竞技场（每个1%）",
+        unit: 1,
+        items: [
+            "勇士的试炼",
+            "征服者的试炼",
+            "愚人的试炼"
+        ]
+    },
+    {
+        name: "神居（每个1%）",
+        unit: 1,
+        items: [
+            "获得神明调谐器",
+            "大师万神殿",
+            "艺术家万神殿",
+            "贤者万神殿",
+            "骑士万神殿"
+        ]
+    },
+    {
+        name: "格林剧团 & 生命血（每个1%）",
+        unit: 1,
+        items: [
+            "击败格林团长",
+            "击败梦魇之王格林",
+            "放逐格林剧团",
+            "击败蜂巢骑士"
+        ]
+    },
+    {
+        name: "骨钉技艺（每个1%）",
+        unit: 1,
+        items: [
+            "强力劈砍",
+            "旋风劈砍",
+            "冲刺劈砍"
+        ]
+    },
+    {
+        name: "骨钉升级（每次1%）",
+        unit: 1,
+        items: [
+            "骨钉升级 +1",
+            "骨钉升级 +2",
+            "骨钉升级 +3",
+            "骨钉升级 +4"
+        ]
+    },
+    {
+        name: "法术（每个1%）",
+        unit: 1,
+        items: [
+            "复仇之魂",
+            "暗影之魂",
+            "嚎叫幽灵",
+            "深渊尖啸",
+            "荒芜俯冲",
+            "黑暗降临"
+        ]
+    },
+    {
+        name: "战士之梦（每个1%）",
+        unit: 1,
+        items: [
+            "戈布",
+            "泽若",
+            "胡长老",
+            "马尔穆",
+            "无眼",
+            "马科斯",
+            "加利安"
+        ]
+    }
+];
+
+const container = document.getElementById("content");
+
+sections.forEach(section => {
+    const div = document.createElement("div");
+    div.className = "section";
+    div.innerHTML = `<h2>${section.name}</h2>`;
+    section.items.forEach(name => {
+        div.innerHTML += `
+            <label>
+                <input type="checkbox" data-unit="${section.unit}">
+                ${name}
+            </label>
+        `;
+    });
+    container.appendChild(div);
+});
+
+function updateProgress() {
+    let total = 0;
+    document.querySelectorAll("input[type=checkbox]").forEach(cb => {
+        if (cb.checked) {
+            total += Number(cb.dataset.unit);
+        }
+    });
+    document.getElementById("current").textContent = total;
+    document.getElementById("percent").textContent = ((total / 112) * 100).toFixed(1);
+}
+
+document.addEventListener("change", updateProgress);
+</script>
+
+</body>
+</html>
