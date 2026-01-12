@@ -20,7 +20,7 @@ export default defineNavbarConfig([
           {
             text: '空洞骑士系列',
             link: '/notes/games/hollow_knight/',
-            icon: 'material-symbols-light:code-blocks-outline-rounded',
+            icon: 'arcticons:hollow-knight',
           },
         ]
       }
