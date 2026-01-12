@@ -41,7 +41,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    copyright: ' © 2023-2025 novice.log | novice :) ',
+    copyright: ' © 2023-2026 novice.log | novice :) ',
     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
   },
 
