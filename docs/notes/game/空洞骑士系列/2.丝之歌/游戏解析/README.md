@@ -1,5 +1,5 @@
 ---
-title: 概览
+title: 游戏解析
 createTime: 2026/01/12 23:53:20
 permalink: /notes/games/hollow_knight/silk_song/overview/
 ---
@@ -11,15 +11,6 @@ permalink: /notes/games/hollow_knight/silk_song/overview/
 
 1. [代码解析](1.代码解析.md)
 
-2. [AssetStudio解包](2.解包.md)
+2. [存档解析](2.存档解析.md)
 
-
-
-> 接下来的内容
-
-1. 代码解析
-    dnspy,
-2. 解包
-    AssetStudio,
-3. 制作mod
-    learning......
+3. [游戏解包](3.解包.md)
