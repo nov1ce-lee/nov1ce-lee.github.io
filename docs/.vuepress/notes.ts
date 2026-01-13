@@ -38,6 +38,28 @@ const game = defineNoteConfig({
   dir: 'game',
   link: '/notes/games',
   sidebar: 'auto'
+  // sidebar: [
+  //   {
+  //     text: '空洞骑士系列',
+  //     prefix: '空洞骑士系列',
+  //     items: [
+  //       {
+  //         text: '空洞骑士',
+  //         prefix: '1.空洞骑士',
+  //         items: 'auto',
+  //         collapsed: false,
+  //         icon: 'arcticons:hollow-knight',
+  //       },
+  //       {
+  //         text: '丝之歌',
+  //         prefix: '2.丝之歌',
+  //         items: 'auto',
+  //         collapsed: false,
+  //         icon: 'arcticons:hollow-knight-silksong'
+  //       }
+  //     ]
+  //   },
+  // ]
 })
 
 const computer = defineNoteConfig({
@@ -55,7 +77,6 @@ const aillm = defineNoteConfig({
 /**
  * 导出所有的 note
  * 每一个 note 都应该填入到 `notes.notes` 数组中
- * （DemoNote 为参考示例，如果不需要它，请删除）
  */
 export default defineNotesConfig({
   dir: 'notes',
