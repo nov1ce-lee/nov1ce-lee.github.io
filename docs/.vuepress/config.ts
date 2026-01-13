@@ -24,10 +24,10 @@ export default defineUserConfig({
     ['link', { rel: 'icon', type: 'image/png', href: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/d7cfd604-0072-4fb4-8be5-8e713fa39ae6.png' }],
     // 配置数据统计功能
     ['script', {}, `
-        var _hmt = _hmt || [];
+      var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?a91f7c13a8a28ba871c52a11405db5fc";
+        hm.src = "https://hm.baidu.com/hm.js?72b68ab169d53d8cb6721c018143941d";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
