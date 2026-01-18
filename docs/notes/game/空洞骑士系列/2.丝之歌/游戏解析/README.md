@@ -1,7 +1,7 @@
 ---
 title: 游戏解析
 createTime: 2026/01/12 23:53:20
-permalink: /notes/games/hollow_knight/silk_song/overview/
+permalink: /notes/games/silk_song/overview/
 ---
 
 > 免责声明：本教程仅用于学习丝之歌游戏的代码，为熟悉存档结构、开发丝之歌mod做准备，请勿用于商业用途
