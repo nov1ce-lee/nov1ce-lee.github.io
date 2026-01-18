@@ -1,7 +1,7 @@
 ---
 title: 滑动窗口
 createTime: 2025/03/13 15:45:58
-permalink: /notes/leetcode/window/
+permalink: /notes/practice/leetcode/window/
 ---
 
 ## 题目与题解

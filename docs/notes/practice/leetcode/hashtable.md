@@ -1,7 +1,7 @@
 ---
 title: 哈希表
 createTime: 2025/03/12 16:56:11
-permalink: /notes/leetcode/hashtable/
+permalink: /notes/practice/leetcode/hashtable/
 ---
 ## 题目与题解
 

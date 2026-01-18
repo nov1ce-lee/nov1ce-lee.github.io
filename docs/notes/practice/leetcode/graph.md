@@ -1,7 +1,7 @@
 ---
 title: 图
 createTime: 2025/03/16 17:34:16
-permalink: /notes/leetcode/graph/
+permalink: /notes/practice/leetcode/graph/
 ---
 
 ### [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)

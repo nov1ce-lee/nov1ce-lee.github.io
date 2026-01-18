@@ -1,7 +1,7 @@
 ---
 title: 链表
 createTime: 2025/03/05 11:24:01
-permalink: /notes/leetcode/linkedlist/
+permalink: /notes/practice/leetcode/linkedlist/
 ---
 ## 简介
 链表是一种用于存储数据的数据结构，通过`如链条一般的指针`来连接元素。  

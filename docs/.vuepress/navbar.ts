@@ -55,7 +55,7 @@ export default defineNavbarConfig([
         items: [
           {
             text: '力扣专题',
-            link: '/notes/leetcode/',
+            link: '/notes/practice/leetcode/',
             icon: 'material-symbols:stack',
           },
         ],

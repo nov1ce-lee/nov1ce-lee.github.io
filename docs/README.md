@@ -20,7 +20,7 @@ config:
         -
           theme: brand
           text: 力扣
-          link: /notes/leetcode/
+          link: /notes/practice/leetcode/
   
     
 ---

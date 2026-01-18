@@ -1,7 +1,7 @@
 ---
 title: 排序
 createTime: 2025/03/13 15:52:29
-permalink: /notes/leetcode/sort/
+permalink: /notes/practice/leetcode/sort/
 ---
 
 ## 排序介绍

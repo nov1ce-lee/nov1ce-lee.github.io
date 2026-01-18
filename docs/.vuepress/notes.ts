@@ -74,9 +74,9 @@ const aillm = defineNoteConfig({
   sidebar: 'auto',
 })
 
-const leetcode = defineNoteConfig({
-  dir: 'interview/leetcode',
-  link: '/notes/leetcode',
+const practice = defineNoteConfig({
+  dir: 'practice',
+  link: '/notes/practice',
   sidebar: 'auto',
 })
 
@@ -87,5 +87,5 @@ const leetcode = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [game, computer, aillm, leetcode],
+  notes: [game, computer, aillm, practice],
 })

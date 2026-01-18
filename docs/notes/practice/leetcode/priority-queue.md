@@ -1,7 +1,7 @@
 ---
 title: 优先队列(堆)
 createTime: 2025/03/13 19:33:45
-permalink: /notes/leetcode/priority-queue/
+permalink: /notes/practice/leetcode/priority-queue/
 ---
 ## 介绍
 优先队列是一种特殊的队列，这是一种抽象的数据结构，定义为`具有优先级排序`的队列      

@@ -1,7 +1,7 @@
 ---
 title: 动态规划
 createTime: 2025/03/05 00:22:57
-permalink: /notes/leetcode/dynamic/
+permalink: /notes/practice/leetcode/dynamic/
 ---
 ## 简介
 动态规划是一种通过将原问题分解为相对简单的`子问题`的方式求解复杂问题的方法，而能用动态规划解决的问题，需要满足三个条件：`最优子结构`、`无后效性`和`子问题重叠`。

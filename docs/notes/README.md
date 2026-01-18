@@ -9,5 +9,5 @@ permalink: /notes/
 - [计算机基础](/notes/computer/)
 - [游戏攻略](/notes/games/hollow_knight/)
 - [AI 大模型微调](/notes/aillm/fine-tuning/llama-factory/)
-- [力扣专题](/notes/leetcode/)
-- [面试与就业经验](/notes/interview/experience/)
+- [力扣专题](/notes/practice/leetcode/)
+- [面试与就业经验](/notes/practice/experience/)

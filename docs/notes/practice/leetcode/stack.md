@@ -1,7 +1,7 @@
 ---
 title: 栈
 createTime: 2025/03/14 11:45:44
-permalink: /notes/leetcode/stack/
+permalink: /notes/practice/leetcode/stack/
 ---
 
 ## 题目与题解
