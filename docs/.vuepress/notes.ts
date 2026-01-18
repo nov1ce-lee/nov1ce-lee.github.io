@@ -74,6 +74,12 @@ const aillm = defineNoteConfig({
   sidebar: 'auto',
 })
 
+const leetcode = defineNoteConfig({
+  dir: 'interview/leetcode',
+  link: '/notes/leetcode',
+  sidebar: 'auto',
+})
+
 /**
  * 导出所有的 note
  * 每一个 note 都应该填入到 `notes.notes` 数组中
@@ -81,5 +87,5 @@ const aillm = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [game, computer, aillm],
+  notes: [game, computer, aillm, leetcode],
 })

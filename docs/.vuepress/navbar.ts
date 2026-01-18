@@ -35,9 +35,14 @@ export default defineNavbarConfig([
         icon: 'vaadin:hammer',
         items: [
           {
-            text: 'Ollama',
-            link: '/vuepress-theme-plume/',
+            text: 'DeepSeek 本地部署',
+            link: '/blog/deepseek/',
             icon: 'mdi:paper-airplane',
+          },
+          {
+            text: 'AI平台整合',
+            link: '/blog/aiplatform/',
+            icon: 'mdi:cloud',
           },
         ],
       },
@@ -59,8 +64,8 @@ export default defineNavbarConfig([
         badge: { text: '徽章', type: 'warning' },
         items: [
           {
-            text: 'shiki',
-            link: '/vuepress-plugin/shiki/',
+            text: '浏览器自动搜索',
+            link: '/blog/mcp-server/',
             icon: 'material-symbols-light:code-blocks-outline-rounded',
           },
         ]
@@ -86,6 +91,17 @@ export default defineNavbarConfig([
             link: '/notes/computer/data-structure/',
             icon: 'mdi:power-socket-us',
             // badge: '徽章'
+          },
+        ],
+      },
+      {
+        text: '力扣',
+        icon: 'mdi:numeric',
+        items: [
+          {
+            text: '力扣专题',
+            link: '/notes/leetcode/',
+            icon: 'material-symbols:stack',
           },
         ],
       },
