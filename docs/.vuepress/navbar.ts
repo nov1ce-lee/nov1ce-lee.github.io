@@ -11,6 +11,7 @@ export default defineNavbarConfig([
     text: '首页', link: '/', icon: 'material-symbols:home-outline'
   },
   { text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
+  { text: '笔记', link: '/notes/', icon: 'mdi:notebook-outline' },
   {
     text: '游戏攻略',
     icon: 'game-icons:gamepad',
@@ -24,6 +25,41 @@ export default defineNavbarConfig([
           },
         ]
       }
+    ]
+  },
+  {
+    text: '知识积累',
+    icon: 'solar:book-bold',
+    items: [
+      {
+        text: '计算机',
+        icon: 'gridicons:computer',
+        items: [
+          {
+            text: '计算机网络',
+            link: '/notes/computer/computer-network/',
+            icon: 'mdi:paper-airplane',
+            // badge: '徽章'
+          },
+          {
+            text: '数据结构',
+            link: '/notes/computer/data-structure/',
+            icon: 'mdi:power-socket-us',
+            // badge: '徽章'
+          },
+        ],
+      },
+      {
+        text: '力扣',
+        icon: 'mdi:numeric',
+        items: [
+          {
+            text: '力扣专题',
+            link: '/notes/leetcode/',
+            icon: 'material-symbols:stack',
+          },
+        ],
+      },
     ]
   },
   {
@@ -72,40 +108,5 @@ export default defineNavbarConfig([
       }
     ]
   },
-  {
-    text: '知识积累',
-    icon: 'solar:book-bold',
-    items: [
-      {
-        text: '计算机',
-        icon: 'gridicons:computer',
-        items: [
-          {
-            text: '计算机网络',
-            link: '/notes/computer/computer-network/',
-            icon: 'mdi:paper-airplane',
-            // badge: '徽章'
-          },
-          {
-            text: '数据结构',
-            link: '/notes/computer/data-structure/',
-            icon: 'mdi:power-socket-us',
-            // badge: '徽章'
-          },
-        ],
-      },
-      {
-        text: '力扣',
-        icon: 'mdi:numeric',
-        items: [
-          {
-            text: '力扣专题',
-            link: '/notes/leetcode/',
-            icon: 'material-symbols:stack',
-          },
-        ],
-      },
-    ]
-  }
 ])
 
