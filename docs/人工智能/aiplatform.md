@@ -79,11 +79,18 @@ permalink: /blog/aiplatform/
     这将启动 Open WebUI 服务器，您可以在 [http://localhost:8080](http://localhost:8080/)访问
 
 ## poe2openai 部署
-这是一个转换器，可以将 `Poe` 提供的 `API` 令牌转换为 `OpenAI` 的 `API` 格式，从而使依赖于 `OpenAI API` 的其他应用程序可以使用 `Poe` 的 `API。`  
-:::note
-请注意，目前仅限 `Poe` 订阅者访问 `API` 密钥。  
-注意该程序运行需要`科学上网`的环境
+
+
+这是一个转换器，可以将 `Poe` 提供的 `API` 令牌转换为 `OpenAI` 的 `API` 格式，从而使依赖于 `OpenAI API` 的其他应用程序可以使用 `Poe` 的 `API`
+
+:::tip
+现在poe提供openai接口，所以可以不使用转换器
+
+需要注意的是，只有订阅了 `Poe` 才可以访问 `API` 密钥 (订阅可以上tb代充)
+
+同时该程序运行需要`科学上网`的环境
 :::
+
 ### 通过 Python pip & Git 安装
 1. 将此存储库克隆到本地机器：
 ```bash

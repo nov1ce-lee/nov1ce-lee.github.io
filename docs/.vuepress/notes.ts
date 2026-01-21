@@ -80,6 +80,12 @@ const practice = defineNoteConfig({
   sidebar: 'auto',
 })
 
+const cookbook = defineNoteConfig({
+  dir: 'cookbook',
+  link: '/notes/cookbook',
+  sidebar: 'auto',
+})
+
 /**
  * 导出所有的 note
  * 每一个 note 都应该填入到 `notes.notes` 数组中
@@ -87,5 +93,5 @@ const practice = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [game, computer, aillm, practice],
+  notes: [game, computer, aillm, practice, cookbook],
 })

@@ -9,9 +9,9 @@ createTime: 2025/01/31 15:57:23
 permalink: /blog/deepseek/
 ---
 
-> 在这篇文章中，我将基于`Ollama`，在`Windows`和`Ubuntu`系统中快速部署`DeepSeek`
-> 
-> 当然，要想使用响应更快速、效果更优秀的模型，还是需要更好的`GPU`来支持的
+在这篇文章中，我将基于`Ollama`，在`Windows`和`Ubuntu`系统中快速部署`DeepSeek`
+
+当然，要想使用响应更快速、效果更优秀的模型，还是需要更好的`GPU`来支持的
 
 ## Ollama的下载与安装
 > Ollama是一个轻量级的工具，可以帮助你在本地快速部署和运行大语言模型
