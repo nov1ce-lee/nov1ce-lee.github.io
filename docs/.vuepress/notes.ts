@@ -82,7 +82,7 @@ const practice = defineNoteConfig({
 
 const cookbook = defineNoteConfig({
   dir: 'cookbook',
-  link: '/notes/cookbook',
+  link: '/笨蛋食谱',
   sidebar: 'auto',
 })
 

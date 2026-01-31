@@ -1,7 +1,7 @@
 ---
 title: 笨蛋食谱
 createTime: 2026/01/21 20:55:27
-permalink: /notes/cookbook/
+permalink: /笨蛋食谱/
 ---
 
 在家学做饭慢慢积攒一些食谱

@@ -12,7 +12,7 @@ export default defineNavbarConfig([
   },
   { text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
   { text: '笔记', link: '/notes/', icon: 'mdi:notebook-outline' },
-  { text: '笨蛋食谱', link: '/notes/cookbook/', icon: 'icon-park-outline:cook' },
+  { text: '笨蛋食谱', link: '/笨蛋食谱/', icon: 'icon-park-outline:cook' },
   {
     text: '游戏攻略',
     icon: 'game-icons:gamepad',
