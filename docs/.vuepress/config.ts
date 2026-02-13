@@ -106,7 +106,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
      */
     codeHighlighter: {
-      // twoslash: true, // 启用 twoslash
+      twoslash: true, // 启用 twoslash
       whitespace: true, // 启用 空格/Tab 高亮
       lineNumbers: true, // 启用行号
     },
@@ -156,7 +156,7 @@ export default defineUserConfig({
         size: true,       // 启用图片大小
       },
       // include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
-      imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
+      imageSize: 'all', // 启用 自动填充 图片宽高属性，避免页面抖动
     },
 
     /**
