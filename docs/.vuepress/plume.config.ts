@@ -52,7 +52,7 @@ export default defineThemeConfig({
     avatar: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/logo.png',
     name: 'novice.log',
     description: '',
-    circle: true,
+    circle: false,
     location: 'Shanghai',
     // organization: '',
   },
