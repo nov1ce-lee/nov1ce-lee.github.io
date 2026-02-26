@@ -18,7 +18,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/d7cfd604-0072-4fb4-8be5-8e713fa39ae6.png',
+  logo: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/logo.png',
 
   appearance: true,  // 配置 深色模式
 
@@ -49,7 +49,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/ChatGPT%20Image%202025%E5%B9%B412%E6%9C%8813%E6%97%A5%2014_13_00.png',
+    avatar: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/logo.png',
     name: 'novice.log',
     description: '',
     circle: true,

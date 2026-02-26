@@ -21,7 +21,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/d7cfd604-0072-4fb4-8be5-8e713fa39ae6.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://pic-1326566629.cos.ap-shanghai.myqcloud.com/blog/logo.png' }],
     // 配置数据统计功能
     ['script', {}, `
       var _hmt = _hmt || [];
