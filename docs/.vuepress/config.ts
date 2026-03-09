@@ -43,9 +43,9 @@ export default defineUserConfig({
     hostname: 'https://nov1ce-lee.github.io/',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'https://github.com/nov1ce-lee/nov1ce-lee.github.io',
+    docsDir: 'docs',
+    docsBranch: 'main',
 
     /* 页内信息 */
     // editLink: true,
@@ -105,11 +105,11 @@ export default defineUserConfig({
      * Shiki 代码高亮
      * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
      */
-    codeHighlighter: {
-      twoslash: true, // 启用 twoslash
-      whitespace: true, // 启用 空格/Tab 高亮
-      lineNumbers: true, // 启用行号
-    },
+    // codeHighlighter: {
+    //   twoslash: true, // 启用 twoslash
+    //   whitespace: true, // 启用 空格/Tab 高亮
+    //   lineNumbers: true, // 启用行号
+    // },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
     // readingTime: true,
@@ -169,17 +169,17 @@ export default defineUserConfig({
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
      */
-    // comment: {
-    //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-    //   comment: true,
-    //   repo: '',
-    //   repoId: '',
-    //   category: '',
-    //   categoryId: '',
-    //   mapping: 'pathname',
-    //   reactionsEnabled: true,
-    //   inputPosition: 'top',
-    // },
+    comment: {
+      provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+      comment: true,
+      repo: 'nov1ce-lee/nov1ce-lee.github.io',
+      repoId: 'R_kgDOKleYJQ', // 在 giscus.app 上生成
+      category: 'Announcements', // 更改为你的 discussion 分类
+      categoryId: 'DIC_kwDOKleYJc4C4BAW', // 在 giscus.app 上生成
+      mapping: 'pathname',
+      reactionsEnabled: true,
+      inputPosition: 'top',
+    },
 
     /**
      * 资源链接替换
