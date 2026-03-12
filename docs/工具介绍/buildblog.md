@@ -77,15 +77,15 @@ npm run docs:build
 - 该操作会在`.vuepress/dist`下生成网站的静态文件
 ### 配置nginx
 - 打开`nginx`安装目录下的`conf/nginx.conf`，找到`location`
-```
+```conf
 server {
-        listen       80;
-        server_name  www.novishare.site;
+    listen       80;
+    server_name  www.novishare.site;
 
-        location / {
-            root    /home/ubuntu/app/blog/plume/docs/.vuepress/dist;
-            index   index.html index.htm;
-        }
+    location / {
+        root    /home/ubuntu/app/blog/plume/docs/.vuepress/dist;
+        index   index.html index.htm;
+    }
 }
 ```
 - 修改`root`对应根目录，该目录地址为绝对地址，设置为刚刚生成的静态文件目录
@@ -100,39 +100,31 @@ server {
 - 在`腾讯云`注册域名[腾讯云域名注册](https://buy.cloud.tencent.com/domain)
 ### SSL证书的下载与配置
 - SSL证书：实现HTTPS，对网站数据传输加密，防劫持、防篡改、防监听
-- 免费申请90天证书[腾讯云证书](https://console.cloud.tencent.com/ssl)
+- 免费申请90天证书[腾讯云证书](https://console.cloud.tencent.com/ssl)，申请成功后点击下载，选择Nginx场景
 
-![](https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/20250727215431196.png)
-![](https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/20250727215513313.png)
-- 申请成功后点击下载，选择Nginx场景
+![](https://pic-1326566629.cos.ap-shanghai.myqcloud.com/notes/20260313010809611.png)
 
-![](https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/20250727215525807.png)
-![](https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/20250727215539161.png)
-
-- 将下载的`.pem`文件和`.key`文件上传至`nginx`安装目录下的`conf`文件夹内
-
-![](https://obsidian-pic-1326566629.cos.ap-shanghai.myqcloud.com/20250727215549653.png)
-- 打开`nginx`安装目录下的`conf/nginx.conf`，找到`HTTPS server`配置内容，将`ssl_certificate`和`ssl_certificate_key`的内容填写为刚刚下载上传的文件名，将`location`下的`root`位置填写为与前面一致的位置
-```
+- 将下载的`.pem`文件和`.key`文件上传至`nginx`安装目录下的`conf`文件夹内，打开`nginx`安装目录下的`conf/nginx.conf`，找到`HTTPS server`配置内容，将`ssl_certificate`和`ssl_certificate_key`的内容填写为刚刚下载上传的文件名，将`location`下的`root`位置填写为与前面一致的位置
+```conf
 # HTTPS server
-    server {
-       listen       443 ssl;
-       server_name  www.novishare.site;
+server {
+    listen       443 ssl;
+    server_name  www.novishare.site;
 
-       ssl_certificate      novishare.site_bundle.pem;
-       ssl_certificate_key  novishare.site.key;
+    ssl_certificate      novishare.site_bundle.pem;
+    ssl_certificate_key  novishare.site.key;
 
-       ssl_session_cache    shared:SSL:1m;
-       ssl_session_timeout  5m;
+    ssl_session_cache    shared:SSL:1m;
+    ssl_session_timeout  5m;
 
-       ssl_ciphers  HIGH:!aNULL:!MD5;
-       ssl_prefer_server_ciphers  on;
+    ssl_ciphers  HIGH:!aNULL:!MD5;
+    ssl_prefer_server_ciphers  on;
 
-       location / {
-           root   /home/ubuntu/app/blog/plume/docs/.vuepress/dist;
-           index  index.html index.htm;
-       }
+    location / {
+        root   /home/ubuntu/app/blog/plume/docs/.vuepress/dist;
+        index  index.html index.htm;
     }
+}
 ```
 - 保存后在`nginx`文件夹下重新加载配置即可
 ```sh
