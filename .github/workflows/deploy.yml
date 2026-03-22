@@ -32,14 +32,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/.vuepress/dist
-
-      - name: Deploy to Cloud Server
-        uses: easingthemes/ssh-deploy@v4.1.0
-        with:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
-          REMOTE_USER: ${{ secrets.SERVER_USER }}
-          SOURCE: ./docs/.vuepress/dist/
-          TARGET: ${{ secrets.SERVER_PATH }}/
-          ARGS: -rlgoDzvc -i --delete
-          SSH_CMD_ARGS: -o StrictHostKeyChecking=no
