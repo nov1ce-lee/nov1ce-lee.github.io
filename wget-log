@@ -1,0 +1,7 @@
+--2026-03-26 21:56:25--  https://gh.zwnes.xyz/https://release-assets.githubusercontent.com/github-production-release-asset/281229404/e54455f9-75f0-44ab-aafd-e42b44370066?sp=r
+Resolving gh.zwnes.xyz (gh.zwnes.xyz)... 183.192.65.101, ::ffff:183.192.65.101
+Connecting to gh.zwnes.xyz (gh.zwnes.xyz)|183.192.65.101|:443... connected.
+ERROR: cannot verify gh.zwnes.xyz's certificate, issued by ‘CN=SHECA OV Server CA G5,O=UniTrust,C=CN’:
+  Unable to locally verify the issuer's authority.
+    ERROR: certificate common name ‘183.192.65.101’ doesn't match requested host name ‘gh.zwnes.xyz’.
+To connect to gh.zwnes.xyz insecurely, use `--no-check-certificate'.
