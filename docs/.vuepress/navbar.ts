@@ -68,13 +68,18 @@ export default defineNavbarConfig([
     icon: 'mdi:idea',
     items: [
       {
-        text: '模型部署',
-        icon: 'vaadin:hammer',
+        text: '模型应用',
+        icon: 'mingcute:plugin-2-fill',
         items: [
           {
             text: 'DeepSeek 本地部署',
             link: '/blog/deepseek/',
             icon: 'mdi:paper-airplane',
+          },
+          {
+            text: '浏览器自动搜索',
+            link: '/blog/mcp-server/',
+            icon: 'icon-park-outline:search',
           },
           {
             text: 'AI平台整合',
@@ -84,29 +89,22 @@ export default defineNavbarConfig([
         ],
       },
       {
-        text: '微调训练',
+        text: '模型训练',
         icon: 'material-symbols:exercise-sharp',
         badge: { text: '徽章', type: 'warning' },
         items: [
           {
             text: 'llama-factory',
             link: '/notes/aillm/fine-tuning/llama-factory/',
-            icon: 'material-symbols-light:code-blocks-outline-rounded',
+            icon: 'fluent-emoji-high-contrast:llama',
+          },
+          {
+            text: 'AI歌曲生成',
+            link: '/notes/aillm/song-generating/',
+            icon: 'streamline:song-recommendation',
           },
         ]
       },
-      {
-        text: '模型应用',
-        icon: 'mingcute:plugin-2-fill',
-        badge: { text: '徽章', type: 'warning' },
-        items: [
-          {
-            text: '浏览器自动搜索',
-            link: '/blog/mcp-server/',
-            icon: 'material-symbols-light:code-blocks-outline-rounded',
-          },
-        ]
-      }
     ]
   },
 ])
