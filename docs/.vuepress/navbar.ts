@@ -99,7 +99,7 @@ export default defineNavbarConfig([
             icon: 'fluent-emoji-high-contrast:llama',
           },
           {
-            text: 'AI歌曲生成',
+            text: 'AI变声',
             link: '/notes/aillm/song-generating/',
             icon: 'streamline:song-recommendation',
           },
