@@ -13,7 +13,8 @@
     "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "build": "vuepress build docs --clean-cache --clean-temp",
     "preview": "http-server docs/.vuepress/dist",
-    "vp-update": "npx vp-update"
+    "vp-update": "npx vp-update",
+    "deploy": "npm run build && rsync -avz --delete docs/.vuepress/dist/ novice@nov1ce.top:/home/novice/project/blog/"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
