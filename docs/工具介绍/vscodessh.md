@@ -5,7 +5,7 @@ tags:
 - Ubuntu
 - SSH
 createTime: 2024/12/23 17:52:12
-permalink: /blog/remotessh/
+permalink: /blog/remote-ssh/
 ---
 ## 碎碎念
 在搭建网站的过程中刚好注意到了VS Code的这个插件，使用体验良好，遂在这里介绍一下使用方式

@@ -7,7 +7,7 @@ tags:
 - API
 - AI
 createTime: 2025/02/16 11:53:08
-permalink: /blog/aiplatform/
+permalink: /blog/ai-platform/
 ---
 本篇博客将讲解如何从0到1搭建一个完整的AI大语言模型集成平台。我将使用`Open WebUI`作为主要界面，配合`poe2openai`实现API转换从而调用`poe.com`提供的模型，并集成`Ollama`来运行本地模型。
 

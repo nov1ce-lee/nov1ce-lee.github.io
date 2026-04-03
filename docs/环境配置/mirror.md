@@ -5,7 +5,7 @@ tags:
 - Ubuntu
 - Linux
 createTime: 2025/08/25 00:24:22
-permalink: /blog/ubuntu/mirrors/
+permalink: /blog/ubuntu-mirrors/
 ---
 
 在国内使用Ubuntu时，首先要解决的就是网络问题，由于大陆内无法直接访问多数服务器，因此为了保证网络通畅需要将软件源更换为国内的镜像源

@@ -5,7 +5,7 @@ tags:
 - Linux
 - MacOs
 createTime: 2025/08/28 22:28:34
-permalink: /blog/system_reinstall/
+permalink: /blog/system-reinstall/
 ---
 
 在日常生活中，我们可能会有系统重装的需要，亦或是组装了新的主机需要安装系统，此时一个好用的U盘启动器就派上了用场

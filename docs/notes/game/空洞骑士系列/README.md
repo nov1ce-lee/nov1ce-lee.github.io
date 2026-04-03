@@ -1,7 +1,7 @@
 ---
 title: 空洞骑士系列
 createTime: 2025/12/02 12:04:56
-permalink: /notes/games/hollow_knight/
+permalink: /notes/games/hollow-knight/
 ---
 
 本系列将围绕空洞骑士一代及其二代续作丝之歌展开，包括但不限于

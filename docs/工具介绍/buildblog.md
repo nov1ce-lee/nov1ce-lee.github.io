@@ -4,7 +4,7 @@ tags:
 - Vuepress
 - Ubuntu
 createTime: 2024/12/23 12:34:07
-permalink: /blog/buildblog/
+permalink: /blog/build-web/
 ---
 ## 一些碎碎念
 依旧是做不进去“正事”的时候瞎搞出来的东西，去年期末寄搭建网站时在阿里云租的服务器即将到期，于是乎又在腾讯云上租了一台2核2G的服务器，比去年的强了许多

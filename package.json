@@ -1,9 +1,9 @@
 {
-  "name": "novishare-site",
+  "name": "nov1ce.top",
   "type": "module",
   "version": "1.0.0",
   "description": "A website to share by Novice.",
-  "author": "LiVanAk <289836737@qq.com>",
+  "author": "novice <289836737@qq.com>",
   "license": "MIT",
   "engines": {
     "node": "^20.6.0 || >=22.0.0"
@@ -14,7 +14,7 @@
     "build": "vuepress build docs --clean-cache --clean-temp",
     "preview": "http-server docs/.vuepress/dist",
     "vp-update": "npx vp-update",
-    "deploy": "npm run build && rsync -avz --delete docs/.vuepress/dist/ novice@nov1ce.top:/home/novice/project/blog/"
+    "deploy": "npm run build && rsync -avz --delete docs/.vuepress/dist/ novice@nov1ce.top:/home/novice/app/nginx-proxy-manager/data/pages/blog/"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",

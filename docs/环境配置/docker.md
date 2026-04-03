@@ -5,7 +5,7 @@ tags:
 - Ubuntu
 - Linux
 createTime: 2025/08/25 00:10:53
-permalink: /blog/ubuntu/docker/
+permalink: /blog/docker/
 ---
 
 <LinkCard

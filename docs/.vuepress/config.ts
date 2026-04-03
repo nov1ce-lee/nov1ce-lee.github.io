@@ -169,17 +169,17 @@ export default defineUserConfig({
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
      */
-    comment: {
-      provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      comment: true,
-      repo: 'nov1ce-lee/nov1ce-lee.github.io',
-      repoId: 'R_kgDOKleYJQ', // 在 giscus.app 上生成
-      category: 'Announcements', // 更改为你的 discussion 分类
-      categoryId: 'DIC_kwDOKleYJc4C4BAW', // 在 giscus.app 上生成
-      mapping: 'pathname',
-      reactionsEnabled: true,
-      inputPosition: 'top',
-    },
+    // comment: {
+    //   provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+    //   comment: true,
+    //   repo: 'nov1ce-lee/nov1ce-lee.github.io',
+    //   repoId: 'R_kgDOKleYJQ', // 在 giscus.app 上生成
+    //   category: 'Announcements', // 更改为你的 discussion 分类
+    //   categoryId: 'DIC_kwDOKleYJc4C4BAW', // 在 giscus.app 上生成
+    //   mapping: 'pathname',
+    //   reactionsEnabled: true,
+    //   inputPosition: 'top',
+    // },
 
     /**
      * 资源链接替换

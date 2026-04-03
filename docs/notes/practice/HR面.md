@@ -1,7 +1,7 @@
 ---
 title: HR面
 createTime: 2025/04/02 00:37:59
-permalink: /notes/practice/abds1ftl/
+permalink: /notes/practice/hr-interview/
 ---
 
 ## 问题拆解与回答模板
