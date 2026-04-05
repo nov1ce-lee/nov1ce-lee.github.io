@@ -21,7 +21,7 @@ export default defineNavbarConfig([
         items: [
           {
             text: '空洞骑士系列',
-            link: '/notes/games/hollow_knight/',
+            link: '/notes/games/hollow-knight/',
             icon: 'arcticons:hollow-knight',
           },
         ]
@@ -83,7 +83,7 @@ export default defineNavbarConfig([
           },
           {
             text: 'AI平台整合',
-            link: '/blog/aiplatform/',
+            link: '/blog/ai-platform/',
             icon: 'mdi:cloud',
           },
         ],
@@ -95,12 +95,12 @@ export default defineNavbarConfig([
         items: [
           {
             text: 'llama-factory',
-            link: '/notes/aillm/fine-tuning/llama-factory/',
+            link: '/notes/ai-llm/fine-tuning/llama-factory/',
             icon: 'fluent-emoji-high-contrast:llama',
           },
           {
             text: 'AI变声',
-            link: '/notes/aillm/song-generating/',
+            link: '/notes/ai-llm/song-generating/',
             icon: 'streamline:song-recommendation',
           },
         ]

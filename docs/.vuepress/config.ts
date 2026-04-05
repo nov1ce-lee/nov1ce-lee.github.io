@@ -16,8 +16,8 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'novice.log',
-  description: 'Log by Nov1ce',
+  title: 'nov1ce.top',
+  description: 'A little site by nov1ce',
 
   head: [
     // 配置站点图标
