@@ -69,8 +69,8 @@ const computer = defineNoteConfig({
 })
 
 const aillm = defineNoteConfig({
-  dir: 'aillm',
-  link: '/notes/aillm',
+  dir: 'ai-llm',
+  link: '/notes/ai-llm',
   sidebar: 'auto',
 })
 
