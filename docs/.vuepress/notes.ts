@@ -51,7 +51,6 @@ const game = defineNoteConfig({
       items: 'auto',
       collapsed: false,
       icon: 'mdi:tractor',
-      badge: { text: 'NEW', type: 'tip' },
     },
   ],
 })

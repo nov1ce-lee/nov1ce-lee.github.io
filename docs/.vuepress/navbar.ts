@@ -28,7 +28,6 @@ export default defineNavbarConfig([
             text: '编程农场',
             link: '/notes/games/code-farm/',
             icon: 'mdi:tractor',
-            badge: { text: 'NEW', type: 'tip' },
           },
         ]
       }

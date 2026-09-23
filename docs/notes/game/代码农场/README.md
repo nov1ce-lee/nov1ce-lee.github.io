@@ -11,7 +11,7 @@ icon: mdi:tractor
 这里整理《编程农场》的流程、种植方案、自动化、成就和排行榜相关内容
 
 ::: tip 专题路线
-第一次玩可以从入门路线开始，后面的专题按需要查
+第一次玩可以先看快速开始，其他专题按需查阅
 :::
 
 ## 文档目录
@@ -21,7 +21,7 @@ icon: mdi:tractor
     title="1. 快速开始"
     icon="material-symbols:rocket-launch-outline"
     href="/notes/games/code-farm/getting-started/"
-    description="用一篇解决基本操作和第一套自动种植"
+    description="了解基本操作并开始自动种植"
   />
   <LinkCard
     title="2. 种植方案"
@@ -65,7 +65,7 @@ icon: mdi:tractor
 
 | 模块 | 主要内容 | 阅读方式 |
 | --- | --- | --- |
-| 快速开始 | 基本操作和第一套自动种植 | 第一次玩时看 |
+| 快速开始 | 基本操作和自动种植思路 | 第一次玩时看 |
 | 种植方案 | 每种植物单独一篇 | 按作物查 |
 | 特殊玩法 | 迷宫和恐龙 | 独立专题 |
 | 自动化架构 | 可以跨作物复用的设计 | 进阶阅读 |
