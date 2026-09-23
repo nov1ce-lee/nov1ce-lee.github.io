@@ -24,6 +24,12 @@ export default defineNavbarConfig([
             link: '/notes/games/hollow-knight/',
             icon: 'arcticons:hollow-knight',
           },
+          {
+            text: '编程农场',
+            link: '/notes/games/code-farm/',
+            icon: 'mdi:tractor',
+            badge: { text: 'NEW', type: 'tip' },
+          },
         ]
       }
     ]

@@ -37,29 +37,23 @@ import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 const game = defineNoteConfig({
   dir: 'game',
   link: '/notes/games',
-  sidebar: 'auto'
-  // sidebar: [
-  //   {
-  //     text: '空洞骑士系列',
-  //     prefix: '空洞骑士系列',
-  //     items: [
-  //       {
-  //         text: '空洞骑士',
-  //         prefix: '1.空洞骑士',
-  //         items: 'auto',
-  //         collapsed: false,
-  //         icon: 'arcticons:hollow-knight',
-  //       },
-  //       {
-  //         text: '丝之歌',
-  //         prefix: '2.丝之歌',
-  //         items: 'auto',
-  //         collapsed: false,
-  //         icon: 'arcticons:hollow-knight-silksong'
-  //       }
-  //     ]
-  //   },
-  // ]
+  sidebar: [
+    {
+      text: '空洞骑士系列',
+      prefix: '空洞骑士系列',
+      items: 'auto',
+      collapsed: true,
+      icon: 'arcticons:hollow-knight',
+    },
+    {
+      text: '编程农场',
+      prefix: '代码农场',
+      items: 'auto',
+      collapsed: false,
+      icon: 'mdi:tractor',
+      badge: { text: 'NEW', type: 'tip' },
+    },
+  ],
 })
 
 const computer = defineNoteConfig({
