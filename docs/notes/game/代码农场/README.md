@@ -6,6 +6,8 @@ icon: mdi:tractor
 ---
 # 编程农场 · The Farmer Was Replaced
 
+![编程农场 Steam 商店头图](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/8611dfa7fa50151f3c0006b5d9d1e44be9c00306/header_schinese.jpg)
+
 《编程农场》（The Farmer Was Replaced）是一款使用代码控制无人机经营农场的编程游戏
 
 这里整理《编程农场》的流程、种植方案、自动化、成就和排行榜相关内容
@@ -76,5 +78,9 @@ icon: mdi:tractor
 ::: tip 说明
 目前只搭了框架，后面边玩边填（x
 :::
+
+## 素材来源
+
+页面中的游戏头图和成就图标来自 [Steam 商店](https://store.steampowered.com/app/2060160/) 与 [Steam 全球成就页面](https://steamcommunity.com/stats/2060160/achievements/?l=schinese)
 
 
