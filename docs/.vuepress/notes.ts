@@ -40,9 +40,25 @@ const game = defineNoteConfig({
   sidebar: [
     {
       text: '空洞骑士系列',
+      link: '/notes/games/hollow-knight/',
       prefix: '空洞骑士系列',
-      items: 'auto',
-      collapsed: true,
+      items: [
+        {
+          text: '空洞骑士',
+          prefix: '1.空洞骑士',
+          items: 'auto',
+          collapsed: false,
+          icon: 'arcticons:hollow-knight',
+        },
+        {
+          text: '丝之歌',
+          prefix: '2.丝之歌',
+          items: 'auto',
+          collapsed: false,
+          icon: 'arcticons:hollow-knight-silksong',
+        },
+      ],
+      collapsed: false,
       icon: 'arcticons:hollow-knight',
     },
     {

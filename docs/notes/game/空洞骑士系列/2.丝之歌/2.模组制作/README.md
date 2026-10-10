@@ -1,5 +1,6 @@
 ---
 title: 模组制作
+icon: mdi:puzzle-edit-outline
 createTime: 2026/01/18 22:18:34
 permalink: /notes/games/silk-song/modding/
 ---

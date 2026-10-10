@@ -1,5 +1,6 @@
 ---
 title: 游戏攻略
+icon: material-symbols:map-outline
 createTime: 2026/01/18 22:13:50
 permalink: /notes/games/silk-song/strategy/
 ---

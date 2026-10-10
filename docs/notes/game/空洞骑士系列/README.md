@@ -1,5 +1,6 @@
 ---
 title: 空洞骑士系列
+icon: arcticons:hollow-knight
 createTime: 2025/12/02 12:04:56
 permalink: /notes/games/hollow-knight/
 ---

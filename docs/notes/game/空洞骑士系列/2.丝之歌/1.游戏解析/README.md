@@ -1,5 +1,6 @@
 ---
 title: 游戏解析
+icon: material-symbols:code-blocks-outline
 createTime: 2026/01/12 23:53:20
 permalink: /notes/games/silk-song/overview/
 ---
